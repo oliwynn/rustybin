@@ -459,7 +459,7 @@ struct HeaderDoc {
 
 async fn status_handler(headers: HeaderMap) -> Response {
     let doc = StatusDoc {
-        description: "DataKit orchestration pipeline — 4-step payment processing flow",
+        description: "Multi-step orchestration pipeline — 4-step payment processing flow",
         steps: vec![
             StepDoc {
                 step: 1,
